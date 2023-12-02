@@ -13,6 +13,9 @@ app.use(cors());
 app.get("/",(req,res)=>{
     res.send("HELL ITS WORKING");
 })
+app.get("/api",(req,res)=>{
+    res.send("Api ITS WORKING");
+})
 
 const server=http.createServer(app);
 
